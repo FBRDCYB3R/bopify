@@ -545,15 +545,4 @@ function App() {
       particleCount: 150,
       spread: 60
     });
-  }, []);
-
-  return (
-    <button className="button" onClick={onClick}>
-      <span>🎉</span>
-      <span>Like</span>
-    </button>
-  );
-}
-
-render(<App />, document.getElementById("root"));
 
