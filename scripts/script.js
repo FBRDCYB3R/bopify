@@ -9,7 +9,7 @@ new Vue({
       currentTime: null,
       isTimerPlaying: false,
       tracks: [
-        {
+               {
           name: "Fly Me To The Moon Lofi Cover",
           artist: "Yung Prod",
           cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/1.jpg",
@@ -402,17 +402,13 @@ new Vue({
           source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/yt1s.com - Yves V Ilkay Sencan Not So Bad feat Emie Official Music Video.mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
-        },
-    
-      ],
-      
+        }
+       ],
       currentTrack: null,
       currentTrackIndex: 0,
       transitionName: null
     };
   },
-  
-
   methods: {
     play() {
       if (this.audio.paused) {
