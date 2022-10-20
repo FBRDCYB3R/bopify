@@ -410,6 +410,8 @@ new Vue({
       transitionName: null
     };
   },
+  
+shuffle(songs);
   methods: {
     play() {
       if (this.audio.paused) {
