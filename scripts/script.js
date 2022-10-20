@@ -403,7 +403,7 @@ new Vue({
           url: "https://twitter.com/home?lang=en",
           favorited: false
         },
-      ],
+    
       ],
       currentTrack: null,
       currentTrackIndex: 0,
