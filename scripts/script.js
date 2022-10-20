@@ -158,7 +158,7 @@ new Vue({
         {
           name: "Moonligt",
           artist: "Gaullin",
-          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/12.jpg",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/13.jpg",
           source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/GAULLIN - MOONLIGHT.mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
@@ -166,7 +166,7 @@ new Vue({
          {
           name: "Goosebumps",
           artist: "HVME",
-          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/12.jpg",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/16.jpg",
           source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/HVME - GOOSEBUMPS.mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
@@ -174,7 +174,7 @@ new Vue({
          {
           name: "Golden",
           artist: "Harry Styles",
-          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/12.jpg",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/18.jpg",
           source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Harry Styles Golden Official Audio.mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
@@ -182,7 +182,7 @@ new Vue({
         {
           name: "Just the two of Us",
           artist: "Lucy Ellis",
-          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/12.jpg",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/2.jpg",
           source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Just the Two of Us.mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
@@ -190,7 +190,7 @@ new Vue({
         {
           name: "KDA Villain",
           artist: "KDA",
-          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/12.jpg",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/9.jpg",
           source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/K_DA - VILLAIN (feat. Madison Beer & Kim Petras).mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
@@ -198,7 +198,7 @@ new Vue({
         {
           name: "Lithium",
           artist: "OCCXLLT",
-          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/12.jpg",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/4.jpg",
           source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Lithium.mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
@@ -206,7 +206,7 @@ new Vue({
         {
           name: "Animals",
           artist: "Martin Garrix",
-          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/12.jpg",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/5.jpg",
           source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Martin Garrix - Animals (Official Lyrics Video).mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
@@ -214,7 +214,7 @@ new Vue({
         {
           name: "Call me now",
           artist: "Inna",
-          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/12.jpg",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/6.jpg",
           source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Michael Calfan x INNA - Call Me Now (Official Lyric Video).mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
@@ -222,7 +222,7 @@ new Vue({
         {
           name: "MMM",
           artist: "Minelli",
-          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/12.jpg",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/7.jpg",
           source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Minelli - MMM.mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
@@ -230,7 +230,7 @@ new Vue({
         {
           name: "Nothing Hurts",
           artist: "Minelli",
-          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/12.jpg",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/8.jpg",
           source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Minelli - Nothing Hurts.mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
@@ -238,7 +238,7 @@ new Vue({
         {
           name: "Deep sea",
           artist: "Minelli",
-          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/12.jpg",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/9.jpg",
           source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Minelli x R3HAB - Deep Sea.mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
@@ -246,7 +246,7 @@ new Vue({
         {
           name: "Beggin",
           artist: "Måneskin",
-          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/12.jpg",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/10.jpg",
           source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Måneskin - Beggin (Lyrics).mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
@@ -254,7 +254,7 @@ new Vue({
         {
           name: "I wanna be your slave",
           artist: "Måneskin",
-          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/12.jpg",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/13.jpg",
           source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Måneskin I WANNA BE YOUR SLAVE LyricsTesto Eurovision 2021.mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
@@ -262,7 +262,7 @@ new Vue({
         {
           name: "Nightfall",
           artist: "OCCXLLT",
-          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/12.jpg",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/15.jpg",
           source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/OCCXLLT - NIGHTFALL.mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
@@ -270,7 +270,7 @@ new Vue({
         {
           name: "Bad Generation",
           artist: "Della",
-          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/12.jpg",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/16.jpg",
           source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/ORGAN & DELLA - Bad Generation (Magic Release).mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
@@ -278,7 +278,7 @@ new Vue({
         {
           name: "I don't wanna Know",
           artist: "Punctual",
-          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/12.jpg",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/17.jpg",
           source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Punctual - I Dont Wanna Know.mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
@@ -286,7 +286,7 @@ new Vue({
         {
           name: "SAYONARA Baby",
           artist: "Kaze",
-          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/12.jpg",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/19.jpg",
           source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/SAYONARA Baby.mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
@@ -294,7 +294,7 @@ new Vue({
         {
           name: "Desert Rose",
           artist: "Sting",
-          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/12.jpg",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/20.jpg",
           source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Sting - Desert Rose (Official Music Video).mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
@@ -302,7 +302,7 @@ new Vue({
         {
           name: "ILY",
           artist: "Surf Mesa",
-          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/12.jpg",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/3.jpg",
           source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Surf Mesa - ily.mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
@@ -310,7 +310,7 @@ new Vue({
         {
           name: "Moth to a flame",
           artist: "Swedish House Mafia",
-          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/12.jpg",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/2.jpg",
           source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Swedish House Mafia - Moth To A Flame (Lyrics) ft. The Weeknd.mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
@@ -318,7 +318,7 @@ new Vue({
         {
           name: "The Business",
           artist: "Tiesto",
-          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/12.jpg",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/1.jpg",
           source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Tiesto - The Business (Official Lyric Video).mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
@@ -326,7 +326,7 @@ new Vue({
         {
           name: "Glassy Sky",
           artist: "Tokyo Ghoul",
-          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/12.jpg",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/17.jpg",
           source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Tokyo Ghoul - Glassy Sky [東京喰種 -トーキョーグール-].mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
@@ -334,7 +334,7 @@ new Vue({
         {
           name: "Tsumi No Kaori",
           artist: "Kaze",
-          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/12.jpg",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/6.jpg",
           source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Tsumi No Kaori.mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
@@ -342,7 +342,7 @@ new Vue({
         {
           name: "Unprocessed",
           artist: "LLUCID",
-          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/12.jpg",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/8.jpg",
           source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Unprocessed - Real feat. Polyphia s Tim Henson & Clay Gober - LLUCID Remix_50k.mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
@@ -350,7 +350,7 @@ new Vue({
         {
           name: "Flyday Chinatown",
           artist: "Yasuha",
-          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/12.jpg",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/10.jpg",
           source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Yasuha - Flyday Chinatown.mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
@@ -366,7 +366,7 @@ new Vue({
         {
           name: "cant get over you",
           artist: "?",
-          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/12.jpg",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/14.jpg",
           source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/cant get over you.mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
@@ -374,7 +374,7 @@ new Vue({
         {
           name: "e wa",
           artist: "Kaze",
-          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/12.jpg",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/17.jpg",
           source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/e wa.mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
@@ -382,7 +382,7 @@ new Vue({
         {
           name: "It don't matter",
           artist: "?",
-          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/12.jpg",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/13.jpg",
           source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/it dont matter.mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
@@ -390,7 +390,7 @@ new Vue({
         {
           name: "All the Things she said",
           artist: "Gaullin",
-          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/12.jpg",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/9.jpg",
           source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/t.A.T.u.- All The Things She Said (Gaullin Remix)(Bass boosted).mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
@@ -398,7 +398,7 @@ new Vue({
         {
           name: "Not so bad",
           artist: "Yevs V",
-          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/12.jpg",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/20.jpg",
           source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/yt1s.com - Yves V Ilkay Sencan Not So Bad feat Emie Official Music Video.mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
