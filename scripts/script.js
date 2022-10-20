@@ -10,10 +10,10 @@ new Vue({
       isTimerPlaying: false,
       tracks: [
         {
-          name: "Faded",
-          artist: "Alan Walker",
+          name: "Fly Me To The Moon Lofi Cover",
+          artist: "Yung Prod",
           cover: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/img/1.jpg",
-          //source: "https://raw.githubusercontent.com/muhammederdem/mini-player/master/mp3/1.mp3",
+          source: "https://github.com/FBRDCYB3R/bopify/blob/master/mp3/Fly%20Me%20To%20The%20Moon%20Lofi%20Cover%20Prod%20YungRhythm.mp3",
           url: "https://www.youtube.com/watch?v=g7lcmk6rxhE",
           favorited: false
         },
