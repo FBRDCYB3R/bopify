@@ -405,13 +405,14 @@ new Vue({
         },
     
       ],
+      shuffle(tracks);
       currentTrack: null,
       currentTrackIndex: 0,
       transitionName: null
     };
   },
   
-shuffle(songs);
+
   methods: {
     play() {
       if (this.audio.paused) {
