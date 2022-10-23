@@ -23,7 +23,7 @@ new Vue({
           name: "Astronaut in the ocean",
           artist: "Masked wolf",
           cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/9.jpg",
-          source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Masked Wolf Astronaut in the Ocean.mp3",
+          source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/- Masked Wolf Astronaut in the Ocean.mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
         },
@@ -31,7 +31,15 @@ new Vue({
           name: "Ride it",
           artist: "Unknown",
           cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/6.jpg",
-          source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Nightcore Ride It Lyrics.mp3",
+          source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/- Nightcore Ride It Lyrics.mp3",
+          url: "https://twitter.com/home?lang=en",
+          favorited: false
+        },
+        {
+          name: "My Head, My Heart",
+          artist: "Ava Max",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/12.jpg",
+          source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Ava Max - My Head & My Heart (Lyrics).mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
         },
