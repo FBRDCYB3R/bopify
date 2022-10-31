@@ -44,6 +44,22 @@ new Vue({
           favorited: false
         },
         {
+          name: "Unholy",
+          artist: "Sam Smith",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/10.jpg",
+          source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Sam Smith - Unholy .mp3",
+          url: "https://twitter.com/home?lang=en",
+          favorited: false
+        },
+        {
+          name: "Autum Leaves",
+          artist: "Lucy ellis",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/3.jpg",
+          source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Les Feuilles Mortes Autumn Leaves.mp3",
+          url: "https://twitter.com/home?lang=en",
+          favorited: false
+        },
+        {
           name: "Wild fire",
           artist: "Against the Current",
           cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/7.jpg",
