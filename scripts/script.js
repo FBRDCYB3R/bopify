@@ -53,9 +53,9 @@ new Vue({
         },
         {
           name: "Autum Leaves",
-          artist: "Lucy ellis",
+          artist: "Lucy Ellis",
           cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/3.jpg",
-          source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Les Feuilles Mortes Autumn Leaves.mp3",
+          source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Les Feuilles Mortes Autumn Leaves .mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
         },
