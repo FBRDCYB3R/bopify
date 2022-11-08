@@ -9,6 +9,14 @@ new Vue({
       currentTime: null,
       isTimerPlaying: false,
       tracks: [
+         {
+          name: "Ride it",
+          artist: "Unknown",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/6.jpg",
+          source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/- Nightcore Ride It Lyrics.mp3",
+          url: "https://twitter.com/home?lang=en",
+          favorited: false
+        },
                {
           name: "Fly Me To The Moon Lofi Cover",
           artist: "Yung Prod",
@@ -27,14 +35,7 @@ new Vue({
           url: "https://twitter.com/home?lang=en",
           favorited: false
         },
-        {
-          name: "Ride it",
-          artist: "Unknown",
-          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/6.jpg",
-          source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/- Nightcore Ride It Lyrics.mp3",
-          url: "https://twitter.com/home?lang=en",
-          favorited: false
-        },
+
         {
           name: "My Head, My Heart",
           artist: "Ava Max",
@@ -55,7 +56,7 @@ new Vue({
           name: "Autum Leaves",
           artist: "Lucy Ellis",
           cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/3.jpg",
-          source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Les Feuilles Mortes Autumn Leaves .mp3",
+          source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Les Feuilles Mortes Autumn Leaves.mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
         },
