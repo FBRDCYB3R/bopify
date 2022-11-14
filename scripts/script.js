@@ -427,7 +427,23 @@ new Vue({
           source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/yt1s.com - Yves V Ilkay Sencan Not So Bad feat Emie Official Music Video.mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
-        }
+        },
+        {
+          name: "Playing God",
+          artist: "Polyphia",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/12.jpg",
+          source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Playing God (Beat Version).mp3",
+          url: "https://twitter.com/home?lang=en",
+          favorited: false
+        },
+        {
+          name: "Chimera",
+          artist: "Polyphia",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/6.jpg",
+          source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Polyphia - Chimera (feat. Lil West) (Visualizer).mp3",
+          url: "https://twitter.com/home?lang=en",
+          favorited: false
+        },
        ],
       currentTrack: null,
       currentTrackIndex: 0,
