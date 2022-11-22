@@ -9,6 +9,46 @@ new Vue({
       currentTime: null,
       isTimerPlaying: false,
       tracks: [
+                 {
+          name: "Violet",
+          artist: "Killa/Conor Price",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/4.jpg",
+          source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Connor Price - Violet (feat. Killa) [Official Audio].mp3",
+          url: "https://twitter.com/home?lang=en",
+          favorited: false
+        },
+         {
+          name: "Yes mom",
+          artist: "Tessa violet",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/10.jpg",
+          source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Tessa Violet - YES MOM (Lyrics).mp3",
+          url: "https://twitter.com/home?lang=en",
+          favorited: false
+        },
+          {
+          name: "Giga Chad",
+          artist: "?",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/6.jpg",
+          source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/g3ox_em - GigaChad Theme (Phonk House Version).mp3",
+          url: "https://twitter.com/home?lang=en",
+          favorited: false
+        },
+            {
+          name: "I Don't wanna know",
+          artist: "Mario Winans",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/7.jpg",
+          source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Mario Winans - I Don't Wanna Know (Bentley Grey Remix).mp3",
+          url: "https://twitter.com/home?lang=en",
+          favorited: false
+        },
+         {
+          name: "Naughty Girl",
+          artist: "TRFN",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/5.jpg",
+          source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/TRFN - Naughty Girl (Official Video).mp3",
+          url: "https://twitter.com/home?lang=en",
+          favorited: false
+        },
          {
           name: "Ride it",
           artist: "Unknown",
