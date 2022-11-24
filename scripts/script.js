@@ -9,6 +9,22 @@ new Vue({
       currentTime: null,
       isTimerPlaying: false,
       tracks: [
+         {
+          name: "In The end",
+          artist: "DJ Goja",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/21.jpg",
+          source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Dj Goja, Rawanne - IN THE END (Official Video).mp3",
+          url: "https://twitter.com/home?lang=en",
+          favorited: false
+        },
+     {
+          name: "Deep end",
+          artist: "Noro",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/5.jpg",
+          source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/X2Download.app - Deep End (128 kbps).mp3",
+          url: "https://twitter.com/home?lang=en",
+          favorited: false
+        },
                  {
           name: "Violet",
           artist: "Killa/Conor Price",
