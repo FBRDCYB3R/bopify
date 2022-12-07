@@ -10,6 +10,30 @@ new Vue({
       isTimerPlaying: false,
       tracks: [
          {
+          name: "Unholy remix",
+          artist: "Lithunia HQ",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/8.jpg",
+          source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/TRFN - Unholy feat. Siadou (Official Video).mp3",
+          url: "https://twitter.com/home?lang=en",
+          favorited: false
+        },
+          {
+          name: "Habits",
+          artist: "Lithunia HQ",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/5.jpg",
+          source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Dwin & AivarasK - Habits (Official Video).mp3",
+          url: "https://twitter.com/home?lang=en",
+          favorited: false
+        },
+        {
+          name: "Bad Habits",
+          artist: "Lithunia HQ",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/14.jpg",
+          source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Morfeo & Hey Min - Bad Habits (Official Video).mp3",
+          url: "https://twitter.com/home?lang=en",
+          favorited: false
+        },
+         {
           name: "In The end",
           artist: "DJ Goja",
           cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/21.jpg",
