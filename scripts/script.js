@@ -9,6 +9,14 @@ new Vue({
       currentTime: null,
       isTimerPlaying: false,
       tracks: [
+                 {
+          name: "Lust",
+          artist: "Scott Rill",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/6.jpg",
+          source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Scott Rill - Lust (Official Video).mp3",
+          url: "https://twitter.com/home?lang=en",
+          favorited: false
+                 },
          {
           name: "Unholy remix",
           artist: "Lithunia HQ",
