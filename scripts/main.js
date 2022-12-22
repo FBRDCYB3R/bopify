@@ -621,10 +621,8 @@ new Vue({
       this.audio.currentTime = 0;
       this.audio.src = this.currentTrack.source;
       
-      //console.log(this.currentTrack.cover);
-      let image = document.createElement("img");
-      image.src = this.currentTrack.cover;
-      document.body.appendChild(image);
+      console.log(this.currentTrack.cover);
+      document.querySelector("data-adaptive-background").src = this.currentTrack.cover;
       
       setTimeout(() => {
         if(this.isTimerPlaying) {
