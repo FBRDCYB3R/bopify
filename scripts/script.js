@@ -1,3 +1,4 @@
+AdaptiveBackgrounds();
 new Vue({
   el: "#app",
   data() {
