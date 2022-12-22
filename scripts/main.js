@@ -1,4 +1,4 @@
-AdaptiveBackgrounds();
+//AdaptiveBackgrounds();
 new Vue({
   el: "#app",
   data() {
@@ -621,7 +621,7 @@ new Vue({
       this.audio.currentTime = 0;
       this.audio.src = this.currentTrack.source;
       
-      console.log(this.currentTrack.cover);
+      //console.log(this.currentTrack.cover);
       let image = document.createElement("img");
       image.src = this.currentTrack.cover;
       document.body.appendChild(image);
