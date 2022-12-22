@@ -620,6 +620,12 @@ new Vue({
       this.circleLeft = 0;
       this.audio.currentTime = 0;
       this.audio.src = this.currentTrack.source;
+      
+      console.log(this.currentTrack.cover);
+      let image = document.createElement("img");
+      image.src = this.currentTrack.cover;
+      document.body.appendChild(image);
+      
       setTimeout(() => {
         if(this.isTimerPlaying) {
           this.audio.play();
