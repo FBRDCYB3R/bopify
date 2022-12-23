@@ -53,7 +53,7 @@ new Vue({
           name: "Erin",
           artist: "The Omnific",
           cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/7.jpg",
-          source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/The Omnific Erin (Official Audio).mp3",
+          source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Erin.mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
          }, 
@@ -192,7 +192,7 @@ new Vue({
           name: "Autum Leaves",
           artist: "Lucy Ellis",
           cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/3.jpg",
-          source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Les Feuilles Mortes Autumn Leaves .mp3",
+          source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Autumn Leaves.mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
         },
