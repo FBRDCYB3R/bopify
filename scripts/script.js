@@ -146,8 +146,8 @@ new Vue({
           favorited: false
         },
          {
-          name: "Ride it",
-          artist: "Unknown",
+          name: "Ride It",
+          artist: "DJ Regard",
           cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/6.jpg",
           source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/- Nightcore Ride It Lyrics.mp3",
           url: "https://twitter.com/home?lang=en",
