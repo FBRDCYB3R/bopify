@@ -9,14 +9,62 @@ new Vue({
       currentTime: null,
       isTimerPlaying: false,
       tracks: [
-                 {
+        {
+          name: "Moon",
+          artist: "Anima & Sheera",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/2.jpg",
+          source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Anima Ft. Sheera - Moon (Original Mix).mp3",
+          url: "https://twitter.com/home?lang=en",
+          favorited: false
+         },
+        {
+          name: "Sun Goes Down",
+          artist: "Gaullin",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/14.jpg",
+          source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Gaullin - Sun Goes Down.mp3",
+          url: "https://twitter.com/home?lang=en",
+          favorited: false
+         },
+        {
+          name: "OBLIVION",
+          artist: "Amber Van Day",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/16.jpg",
+          source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/OBLIVION (Love Harder ft. Amber Van Day).mp3",
+          url: "https://twitter.com/home?lang=en",
+          favorited: false
+         },
+        {
+          name: "Kill Me With Your Love",
+          artist: "One True God",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/21.jpg",
+          source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/One True God - Kill Me With Your Love.mp3",
+          url: "https://twitter.com/home?lang=en",
+          favorited: false
+         },
+        {
+          name: "Faded",
+          artist: "ZHU",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/12.jpg",
+          source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/ZHU - Faded (Official Music Video).mp3",
+          url: "https://twitter.com/home?lang=en",
+          favorited: false
+         },
+        {
+          name: "Erin",
+          artist: "The Omnific",
+          cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/7.jpg",
+          source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/The Omnific Erin (Official Audio).mp3",
+          url: "https://twitter.com/home?lang=en",
+          favorited: false
+         }, 
+        {
           name: "Lust",
           artist: "Scott Rill",
           cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/6.jpg",
           source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Scott Rill - Lust (Official Video).mp3",
           url: "https://twitter.com/home?lang=en",
           favorited: false
-                 },
+         },
          {
           name: "Unholy remix",
           artist: "Lithunia HQ",
