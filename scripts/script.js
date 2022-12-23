@@ -122,8 +122,8 @@ new Vue({
           favorited: false
         },
           {
-          name: "Giga Chad",
-          artist: "?",
+          name: "Gigachad",
+          artist: "g3ox_em",
           cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/6.jpg",
           source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/g3ox_em - GigaChad Theme (Phonk House Version).mp3",
           url: "https://twitter.com/home?lang=en",
