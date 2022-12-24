@@ -189,7 +189,7 @@ new Vue({
           favorited: false
         },
         {
-          name: "Autum Leaves",
+          name: "Autumn Leaves",
           artist: "Lucy Ellis",
           cover: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/img/3.jpg",
           source: "https://raw.githubusercontent.com/FBRDCYB3R/bopify/master/mp3/Autumn Leaves.mp3",
