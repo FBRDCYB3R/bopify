@@ -21,7 +21,6 @@ $.ajax({
 	    favorited: false
 	  };
 	  var name = e; //filenames should be `[artistofsong - nameofsong].mp3`
-	  window.ree = e;
 	  trclass.source = `${window.location}/mp3/${name.innerHTML}`
 	  trclass.cover = `${window.location}/img/${String(Math.round(Math.random()*20+1))+".jpg"}`;
 	  var trimmed = name.innerHTML.match(/\[(.*)\]/).pop().split(" - ");
