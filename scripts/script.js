@@ -16,7 +16,7 @@ $.ajax({
 	    name: "*",
 	    artist: "*",
 	    cover: "../img/*",
-        source: "../mp3/*",
+            source: "../mp3/*",
 	    url: "https://FBRDCYB3R.github.io/bopify",
 	    favorited: false
 	  };
@@ -26,7 +26,7 @@ $.ajax({
 	  trclass.source = `../mp3/${name.innerHTML}`
 	  trclass.cover = `../img/${String(Math.round(Math.random()*20+1))+".jpg"}`;
 	  var trimmed = undefined;
-	  if (name.innerHTML.match(/\[(.*)\]/).pop().split(" - ")) { trimmed = name.innerHTML.match(/\[(.*)\]/).pop().split(" - "); }
+	  if (name.innerHTML.match(/\[(.*)\]/) !== null) { trimmed = name.innerHTML.match(/\[(.*)\]/).pop().split(" - "); } else { trimmed = ["ERR_ARTIST_NOT_AVAILABLE", "ERR_SONG_NAME_NOT_AVAILABLE"]; }
 	  console.log("trim -", trimmed);
 	  trclass.artist = trimmed[0];
 	  trclass.name = trimmed[1];
