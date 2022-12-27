@@ -25,7 +25,8 @@ $.ajax({
 	  console.log("naem -", name);
 	  trclass.source = `../mp3/${name.innerHTML}`
 	  trclass.cover = `../img/${String(Math.round(Math.random()*20+1))+".jpg"}`;
-	  var trimmed = name.innerHTML.match(/\[(.*)\]/).pop().split(" - ");
+	  var trimmed = undefined;
+	  if (name.innerHTML.match(/\[(.*)\]/).pop().split(" - ")) { trimmed = name.innerHTML.match(/\[(.*)\]/).pop().split(" - "); }
 	  console.log("trim -", trimmed);
 	  trclass.artist = trimmed[0];
 	  trclass.name = trimmed[1];
