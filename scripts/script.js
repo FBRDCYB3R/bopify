@@ -1,7 +1,7 @@
 var trackList = new Array();
 var rectifiedList = new Array();
 $.ajax({
-  url: `${window.location}/mp3`,
+  url: "../mp3",
   success: function(data){
 	console.log("Loaded Data:{", data,"}");
 	$(data).find("a").each(function(e){
@@ -16,17 +16,17 @@ $.ajax({
 	    name: "*",
 	    artist: "*",
 	    cover: "../img/*",
-        source: "../mp3/test/*",
+        source: "../mp3/*",
 	    url: "https://FBRDCYB3R.github.io/bopify",
 	    favorited: false
 	  };
 	  var name = e; //filenames should be `[artistofsong - nameofsong].mp3`
 	  window.ree = e;
 	  console.log("naem -", name);
-	  trclass.source = `${window.location}/mp3/${name.innerHTML}`
-	  trclass.cover = `${window.location}/img/${String(Math.round(Math.random()*20+1))+".jpg"}`;
+	  trclass.source = `../mp3/${name.innerHTML}`
+	  trclass.cover = `../img/${String(Math.round(Math.random()*20+1))+".jpg"}`;
 	  var trimmed = name.innerHTML.match(/\[(.*)\]/).pop().split(" - ");
-		console.log("trim -", trimmed);
+	  console.log("trim -", trimmed);
 	  trclass.artist = trimmed[0];
 	  trclass.name = trimmed[1];
 		console.log("trclass -", trclass);
