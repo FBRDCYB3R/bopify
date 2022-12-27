@@ -4,7 +4,7 @@ $.ajax({
   url: "../mp3",
   success: function(data){
 	console.log("Loaded Data:{", data,"}");
-	$(data).find("a").each(function(e){
+	$(data).find("a:contains('.mp3')").each(function(e){
 	  if (this.innerHTML !== "") {
 		  rectifiedList.push(this);
 	          console.log(this);
