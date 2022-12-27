@@ -4,10 +4,12 @@ $.ajax({
   url: "../mp3",
   success: function(data){
 	console.log("Loaded Data:{", data,"}");
-	$(data).find("td > a").each(function(e){
-	  rectifiedList.push(this);
-	  console.log(this);
-	 });
+	$(data).find("a").each(function(e){
+	  if (this.innerHTML !== "") {
+		  rectifiedList.push(this);
+	          console.log(this);
+          }
+	});
 	rectifiedList.shift();
 	rectifiedList.forEach((e, i) => {
 	  var trclass = {
