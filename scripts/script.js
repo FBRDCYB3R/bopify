@@ -17,7 +17,7 @@ $.ajax({
 	    artist: "*",
 	    cover: "../img/*",
             source: "../mp3/*",
-	    url: "https://FBRDCYB3R.github.io/bopify",
+	    url: "#",
 	    favorited: false
 	  };
 	  var name = e; //filenames should be `[artistofsong - nameofsong].mp3`
