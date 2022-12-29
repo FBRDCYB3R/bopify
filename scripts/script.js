@@ -37,6 +37,7 @@ $.ajax({
 		}
 	});
 	vueInit();
+	$.adaptiveBackground.run({parent: $( "#app" )});
   }
 });
 
@@ -144,6 +145,7 @@ new Vue({
         } else {
           this.audio.pause();
         }
+		$.adaptiveBackground.run({parent: $( "#app" )});
       }, 300);
     },
     favorite() {
