@@ -26,12 +26,15 @@ $.ajax({
 	  trclass.source = `../mp3/${name.innerHTML}`
 	  trclass.cover = `../img/${String(Math.round(Math.random()*20+1))+".jpg"}`;
 	  var trimmed = undefined;
-	  if (name.innerHTML.match(/\[(.*)\]/) !== null) { trimmed = name.innerHTML.match(/\[(.*)\]/).pop().split(" - "); } else { trimmed = ["ERR_ARTIST_NOT_AVAILABLE", "ERR_SONG_NAME_NOT_AVAILABLE"]; }
+		var broken = false;
+	  if (name.innerHTML.match(/\[(.*)\]/) !== null) { trimmed = name.innerHTML.match(/\[(.*)\]/).pop().split(" - "); } else { broken = true; }
 	  console.log("trim -", trimmed);
-	  trclass.artist = trimmed[0];
-	  trclass.name = trimmed[1];
-		console.log("trclass -", trclass);
-	  trackList.push(trclass);
+		if (!broken) {
+			trclass.artist = trimmed[0];
+			trclass.name = trimmed[1];
+			console.log("trclass -", trclass);
+			trackList.push(trclass);
+		}
 	});
 	vueInit();
   }
