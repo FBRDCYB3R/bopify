@@ -10,7 +10,6 @@ $.ajax({
 	          console.log(this);
           }
 	});
-	rectifiedList.shift();
 	rectifiedList.forEach((e, i) => {
 	  var trclass = {
 	    name: "*",
