@@ -1,3 +1,4 @@
+let colors = new ColorThief();
 var trackList = new Array();
 var rectifiedList = new Array();
 $.ajax({
@@ -38,6 +39,7 @@ $.ajax({
 		}
 	});
 	vueInit();
+        console.log(colors.getColor($("player-cover__item")));
 	//$.adaptiveBackground.run({parent: $( "#app" )});
   }
 });
@@ -146,6 +148,7 @@ new Vue({
         } else {
           this.audio.pause();
         }
+        console.log(colors.getColor($("player-cover__item")));
 		//$.adaptiveBackground.run({parent: $( "#app" )});
       }, 300);
     },
