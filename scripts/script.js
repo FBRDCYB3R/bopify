@@ -15,15 +15,17 @@ $.ajax({
 	    name: "*",
 	    artist: "*",
 	    cover: "../img/*",
-            source: "../mp3/*",
+        source: "../mp3/*",
 	    url: "#",
-	    favorited: false
+	    favorited: false,
+		color: null
 	  };
 	  var name = e; //filenames should be `[artistofsong - nameofsong].mp3`
+	  var cover = String(Math.round(Math.random()*20+1))+".jpg";
 	  window.ree = e;
 	  console.log("naem -", name);
 	  trclass.source = `../mp3/${name.innerHTML}`
-	  trclass.cover = `../img/${String(Math.round(Math.random()*20+1))+".jpg"}`;
+	  trclass.cover = `../img/${cover}`;
 	  var trimmed = undefined;
 		var broken = false;
 	  if (name.innerHTML.match(/\[(.*)\]/) !== null) { trimmed = name.innerHTML.match(/\[(.*)\]/).pop().split(" - "); } else { broken = true; }
@@ -175,8 +177,9 @@ new Vue({
       let link = document.createElement('link');
       link.rel = "prefetch";
       link.href = element.cover;
-      link.as = "image"
-      document.head.appendChild(link)
+      link.as = "image";
+      document.head.appendChild(link);
+	  //element.color = element.cover.getPrimaryColors (define function for this)
     }
   }
 });
