@@ -32,7 +32,7 @@
         <div class="player__top" style="border-radius:100%">
           <div class="player-cover">
             <transition-group :name="transitionName">
-                <div class="player-cover__item" v-if="$index === currentTrackIndex" :style="{ backgroundImage: `url(${track.cover})` }"  v-for="(track, $index) in tracks" :key="$index" data-adaptive-background data-ab-css-background></div>
+                <div class="player-cover__item" v-if="$index === currentTrackIndex" :style="{ backgroundImage: `url(${track.cover})` }"  v-for="(track, $index) in tracks" :key="$index"></div>
             </transition-group>
           </div>
           <div class="player-controls">
@@ -133,7 +133,7 @@
     </svg>
     <script src="scripts/vue.js"></script>
     <script src="scripts/jquery.min.js"></script>
-    <script src="scripts/adbg.js"></script>
+    <script src="scripts/colors.js"></script>
     <script src="scripts/script.js"></script>
   </body>
 </html>
