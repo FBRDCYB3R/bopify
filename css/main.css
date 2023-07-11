@@ -3,6 +3,20 @@ body {
   font-family: "Bitter", serif;
 }
 
+#button_fullscreen {
+    z-index: 10000;
+    position: absolute;
+    bottom: 5vmin;
+    left: 5vmin;
+    opacity: 0.05;
+    transition: opacity 0.25s
+}
+
+#button_fullscreen:hover {
+    opacity: 1;
+    transition: opacity 0.25s
+}
+
 * {
   box-sizing: border-box;
 }
@@ -378,5 +392,3 @@ body {
   pointer-events: none;
   opacity: 0;
 }
-
-
