@@ -295,19 +295,19 @@ body {
     padding-right: 30px;
   }
 }
-.album-info__name {
+.album-info__track {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 12px;
   line-height: 1.3em;
 }
 @media screen and (max-width: 576px), (max-height: 500px) {
-  .album-info__name {
+  .album-info__track {
     font-size: 18px;
     margin-bottom: 9px;
   }
 }
-.album-info__track {
+.album-info__name {
   font-weight: 400;
   font-size: 20px;
   opacity: 0.7;
@@ -315,7 +315,7 @@ body {
   min-height: 52px;
 }
 @media screen and (max-width: 576px), (max-height: 500px) {
-  .album-info__track {
+  .album-info__name {
     font-size: 18px;
     min-height: 50px;
   }
