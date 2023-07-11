@@ -31,8 +31,8 @@ $.ajax({
 	  if (name.innerHTML.match(/\[(.*)\]/) !== null) { trimmed = name.innerHTML.match(/\[(.*)\]/).pop().split(" - "); } else { broken = true; }
 	  console.log("trim -", trimmed);
 		if (!broken) {
-			trclass.artist = trimmed[0];
-			trclass.name = trimmed[1];
+			trclass.artist = trimmed[0][0].toUpperCase()+trimmed[0].slice(1, trimmed[0].length); //Capitalize
+			trclass.name = trimmed[1][0].toUpperCase()+trimmed[1].slice(1, trimmed[1].length);
 			console.log("trclass -", trclass);
 			trackList.push(trclass);
 		}
