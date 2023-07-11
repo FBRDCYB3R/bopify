@@ -38,7 +38,7 @@ $.ajax({
 		}
 	});
 	vueInit();
-        var cl = new Image(500,500); cl.src = trackList[0].cover; cl.onload = ()=>{$("body").css({'background': `radial-gradient(gray, rgb(${String(colors.getColor(cl))}))`, 'overflow-x': 'hidden', 'overflow-y': 'hidden'}); console.log(String(colors.getColor(cl)));};
+        var cl = new Image(500,500); cl.src = trackList[0].cover; cl.onload = ()=>{$("div#app.wrapper").css({'background': `radial-gradient(gray, rgb(${String(colors.getColor(cl))}))`}); console.log(String(colors.getColor(cl)));};
   }
 });
 
