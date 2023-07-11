@@ -1,3 +1,16 @@
+function fullscreen(obj) {
+    switch (obj.getAttribute("mask")) {
+        case "url(#fullscreen-enter)":
+            document.body.requestFullscreen();
+            obj.setAttribute("mask", "url(#fullscreen-exit)");
+            break;
+        case "url(#fullscreen-exit)":
+            document.exitFullscreen();
+            obj.setAttribute("mask", "url(#fullscreen-enter)");
+            break;
+    }
+}
+
 let colors = new ColorThief();
 var trackList = new Array();
 var rectifiedList = new Array();
