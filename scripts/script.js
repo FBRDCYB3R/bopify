@@ -159,7 +159,7 @@ new Vue({
         } else {
           this.audio.pause();
         }
-        var cl = new Image(500,500); cl.src = this.currentTrack.cover; cl.onload = ()=>{$("body").css({background: `radial-gradient(gray, rgb(${String(colors.getColor(cl))}))`}); console.log(String(colors.getColor(cl)));};
+        var cl = new Image(500,500); cl.src = this.currentTrack.cover; cl.onload = ()=>{$("div#app.wrapper").css({background: `radial-gradient(gray, rgb(${String(colors.getColor(cl))}))`}); console.log(String(colors.getColor(cl)));};
       }, 300);
     },
     favorite() {
