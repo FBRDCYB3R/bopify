@@ -16,12 +16,11 @@ var trackList = new Array();
 var rectifiedList = new Array();
 $.ajax({
   url: "../mp3",
-  success: function(data){
-	console.log("Loaded Data:{", data,"}");
+  success: function(data) {
+	console.info("Tracks successfully loaded!");
 	$(data).find("a:contains('.mp3')").each(function(e){
 	  if (this.innerHTML !== "") {
-		  rectifiedList.push(this);
-	          console.log(this);
+		    rectifiedList.push(this);
           }
 	});
 	rectifiedList.forEach((e, i) => {
@@ -34,24 +33,36 @@ $.ajax({
 	    favorited: false,
 	  };
 	  var name = e; //filenames should be `[artistofsong - nameofsong].mp3`
-	  var cover = String(Math.round(Math.random()*20+1))+".jpg";
-	  window.ree = e;
-	  console.log("naem -", name);
-	  trclass.source = `../mp3/${name.innerHTML}`
-	  trclass.cover = `../img/${cover}`;
-	  var trimmed = undefined;
-		var broken = false;
-	  if (name.innerHTML.match(/\[(.*)\]/) !== null) { trimmed = name.innerHTML.match(/\[(.*)\]/).pop().split(" - "); } else { broken = true; }
-	  console.log("trim -", trimmed);
-		if (!broken) {
-			trclass.artist = trimmed[0][0].toUpperCase()+trimmed[0].slice(1, trimmed[0].length); //Capitalize
-			trclass.name = trimmed[1][0].toUpperCase()+trimmed[1].slice(1, trimmed[1].length);
-			console.log("trclass -", trclass);
-			trackList.push(trclass);
+	  trclass.source = `../mp3/${name.innerHTML}`;
+	  trclass.url = `../mp3/${name.innerHTML}`;
+	  if (i !== 0) {
+		CoverModulation: while (true) {
+		  var cover = String(Math.round(Math.random()*20+1))+".jpg";
+		  if (trackList[i - 1].cover !== `../img/${cover}`) {
+			trclass.cover = `../img/${cover}`;
+			break;
+		  } else {
+		    continue CoverModulation;
+		  }
 		}
+	  } else {
+	    var cover = String(Math.round(Math.random()*20+1))+".jpg";
+		trclass.cover = `../img/${cover}`;
+	  }
+  
+	  var trimmed = undefined;
+	  var broken = false;
+	  var loaded = true;
+	  if (name.innerHTML.match(/\[(.*)\]/) !== null) { trimmed = name.innerHTML.match(/\[(.*)\]/).pop().split(" - "); } else { broken = true; }
+	  if (loaded && !broken) {
+	    trclass.artist = trimmed[0][0].toUpperCase()+trimmed[0].slice(1, trimmed[0].length); //Capitalize
+		trclass.name = trimmed[1][0].toUpperCase()+trimmed[1].slice(1, trimmed[1].length);
+		trackList.push(trclass);
+	  }
 	});
 	vueInit();
-        var cl = new Image(500,500); cl.src = trackList[0].cover; cl.onload = ()=>{$("div#app.wrapper").css({'background': `radial-gradient(gray, rgb(${String(colors.getColor(cl))}))`}); console.log(String(colors.getColor(cl)));};
+    var cl = new Image(500,500); cl.src = trackList[0].cover; cl.onload = ()=>{$("div#app.wrapper").css({'background': `radial-gradient(gray, rgb(${String(colors.getColor(cl))}))`})};
+	$(".ls").css({'display': 'none'}); $("div#app.wrapper").css({'display': ''})
   }
 });
 
@@ -159,7 +170,7 @@ new Vue({
         } else {
           this.audio.pause();
         }
-        var cl = new Image(500,500); cl.src = this.currentTrack.cover; cl.onload = ()=>{$("div#app.wrapper").css({background: `radial-gradient(gray, rgb(${String(colors.getColor(cl))}))`}); console.log(String(colors.getColor(cl)));};
+        var cl = new Image(500,500); cl.src = this.currentTrack.cover; cl.onload = ()=>{$("div#app.wrapper").css({background: `radial-gradient(gray, rgb(${String(colors.getColor(cl))}))`})};
       }, 300);
     },
     favorite() {
