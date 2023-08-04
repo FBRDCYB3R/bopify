@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "http-server": "^14.1.1"
+  },
+  "scripts": {
+    "build": "echo 'Prebuilt package found; Skipping build'",
+    "start": "chmod a+rx node_modules/http-server/bin/http-server; clear; node_modules/http-server/bin/http-server ."
+  }
+}
