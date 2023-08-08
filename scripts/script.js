@@ -62,7 +62,6 @@ $.ajax({
 	});
 	vueInit();
     var cl = new Image(500,500); cl.src = trackList[0].cover; cl.onload = ()=>{$("div#app.wrapper").css({'background': `radial-gradient(gray, rgb(${String(colors.getColor(cl))}))`})};
-	$(".ls").css({'display': 'none'}); $("div#app.wrapper").css({'display': ''})
   }
 });
 
