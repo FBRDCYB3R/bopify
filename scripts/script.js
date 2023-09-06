@@ -170,6 +170,21 @@ new Vue({
           this.audio.pause();
         }
         var cl = new Image(500,500); cl.src = this.currentTrack.cover; cl.onload = ()=>{$("div#app.wrapper").css({background: `radial-gradient(gray, rgb(${String(colors.getColor(cl))}))`})};
+      	if ('mediaSession' in navigator) {
+	        navigator.mediaSession.metadata = new MediaMetadata({
+	              title: this.currentTrack.name,
+	              artist: this.currentTrack.artist,
+	              artwork: [
+	                      { src: this.currentTrack.cover,   sizes: '500x500',   type: 'image/jpeg' }
+	                    ]
+	            });
+	        navigator.mediaSession.setActionHandler('play', function() {
+	          document.querySelector('audio').play();
+	        });
+	        navigator.mediaSession.setActionHandler('pause', function() {
+	          document.querySelector('audio').pause();
+	        });
+				}
       }, 300);
     },
     favorite() {
